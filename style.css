@@ -3,10 +3,24 @@ html {
     font-size: 16px;
 }
 
+head{
+    background-color: crimson;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+.aboutus {
+text-align: center;
+}
+.textAU{
+    text-align: center;
+    pos
 }
 
 body,
@@ -36,15 +50,19 @@ img {
 
 /*  End of CSS Reset */
 
-body {
-    
+.together{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
 
 .banner {
     align-items: center;
     background-image: url(images/sky.jpeg);
     background-position: bottom;
-    color: white;
+   
     display: grid;
     font-family: sans-serif;
     min-height: 440px;
@@ -67,7 +85,7 @@ body {
 }
 
 nav {
-    background-color: #add8e69c;
+    background-color: crimson;
     position: absolute;
     top: 0;
     width: 100%;
@@ -76,7 +94,7 @@ nav {
 nav ul {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: repeat(7, 12%);
     justify-content: center;
 }
 
